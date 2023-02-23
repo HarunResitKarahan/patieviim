@@ -107,6 +107,9 @@ nav {
     .iletisimicon {
         font-size: 14px;
     }
+    #footeralt {
+        justify-content: center;
+    }
     #footer svg{
         width: 20px !important;
         height: 20px !important;
