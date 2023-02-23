@@ -44,6 +44,7 @@ nav {
     font-size: 7vh;
     letter-spacing: 3px;
     font-weight: 600;
+    text-shadow: 2px 2px 11px rgba(0,0,0,0.50);
 }
 #bigWrittenBox p:nth-child(1) {
     color: #f76c00;
@@ -98,7 +99,7 @@ nav {
         height: 100px !important;
     }
     #bigWrittenBox p {
-        font-size: 40px;
+        font-size: 50px;
     }
     .barakalar {
         font-size: 14px;
@@ -117,7 +118,7 @@ nav {
     #footer #logo img {
         height: 75px !important;
     }
-    /* #firstSection {
-        background-image: url("./assets/images/dog23.jpg");
-    } */
+    #firstSection {
+        background-image: url("./assets/images/dog3.png");
+    }
  }
