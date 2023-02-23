@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background-color: rgb(223, 223, 223);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw 0 0;
+    /* position: fixed; */
+    transition: position 1s ease;
+    top: 0;
+    background-color: #f7fbfe;
+}
+
+#firstSection {
+    background-image: url("./assets/images/dog.jpg");
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+    position: relative;
+}
+#secondSection {
+    /* background-image: url("./assets/images/katalog1.png");
+    background-color: #cccccc;
+    height: 1653px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+    width: 100%;
+}
+
+#bigWrittenBox {
+    /* margin-top: 154px; */
+    text-align: center;
+}
+#bigWrittenBox p {
+    margin: 10px;
+    font-size: 7vh;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+#bigWrittenBox p:nth-child(1) {
+    color: #f76c00;
+}
+
+#bigWrittenBox p:nth-child(2) {
+    color: #522c32;
+}
+
+#barakaKodları {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.barakalar {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.barakalar:nth-child(even) {
+    color: #f76c00;
+}
+.iletisimicon {
+    margin-bottom: 8px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: bold;
+    color: #522c32;
+    cursor: pointer;
+    /* font-size: 18px; */
+}
+#footer {
+    background-color: rgb(229, 230, 245);
+    height: 250px;
+}
+#goUpButton {
+    opacity: 0;
+    animation-name: display;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+    animation-direction: forwards;
+}
+@keyframes display {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@media only screen and (max-width:600px)  { 
+    #logo img {
+        height: 100px !important;
+    }
+    #bigWrittenBox p {
+        font-size: 40px;
+    }
+    .barakalar {
+        font-size: 14px;
+        text-align: center;
+    }
+    .iletisimicon {
+        font-size: 14px;
+    }
+    #footer svg{
+        width: 20px !important;
+        height: 20px !important;
+    }
+    #footer #logo img {
+        height: 75px !important;
+    }
+ }
