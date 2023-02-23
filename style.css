@@ -121,4 +121,7 @@ nav {
     #firstSection {
         background-image: url("./assets/images/dog3.png");
     }
+    #bigWrittenBox p:nth-child(2) {
+        color: white;
+    }
  }
