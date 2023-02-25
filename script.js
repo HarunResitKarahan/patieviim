@@ -55,19 +55,19 @@ hakkimizda.addEventListener('click', function (event) {
 })
 
 function goToInstagram () {
-    let link = document.getElementById('insta');
+    let link = document.getElementById('instabutton');
     link.href = "https://www.instagram.com/patiemlakk/?utm_medium=copy_link"
     link.click()
 }
 
 function goToFacebook () {
-    let link = document.getElementById('face');
+    let link = document.getElementById('facebutton');
     link.href = `https://www.facebook.com/pati.emlak/`
     link.click()
 }
 
 function goToWp () {
-    let link = document.getElementById('wp');
+    let link = document.getElementById('wpbutton');
     // link.href = `https://www.facebook.com/pati.emlak/`
     link.click()
 }
