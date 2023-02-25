@@ -89,6 +89,34 @@ nav {
     /* animation-iteration-count: infinite; */
     animation-direction: forwards;
 }
+.leftsideicons {
+    position: relative;
+}
+.leftsideicons::before {
+    content: "";
+    position: absolute;
+    left: 102%;
+    top: calc(0);
+    height: 45px;
+    width: 100px;
+    padding: 5px;
+    color: white;
+    /* background-color: #00000070; */
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+} 
+#wp::before {
+    content: "TIKLA BİLGİ AL";
+}
+#face::before {
+    content: "GÜNCEL MODELLER İÇİN TAKİP ET";
+}
+#insta::before {
+    content: "GÜNCEL MODELLER İÇİN TAKİP ET";
+}
 @keyframes display {
     from {opacity: 0;}
     to {opacity: 1;}
@@ -123,5 +151,12 @@ nav {
     }
     #bigWrittenBox p:nth-child(2) {
         color: white;
+    }
+    .leftsideicons img {
+        width: 35px;
+    }
+    .leftsideicons::before {
+        font-size: 10px;
+        height: 25px;
     }
  }

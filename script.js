@@ -7,6 +7,8 @@ let kulube = document.querySelector('#Kulube')
 let hakkimizda = document.querySelector('#hakkimizda')
 const goUpButton = document.querySelector('#goUpButton')
 const sections = document.querySelectorAll('section')
+const leftsideicons = document.querySelectorAll('.leftsideicons')
+const leftbaloons = document.querySelector('#leftbaloons')
 
 window.addEventListener('scroll', function(event) {
     document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
@@ -16,11 +18,19 @@ window.addEventListener('scroll', function(event) {
         logo.style.height ="100px"
         nav.style.width = "100%"
         goUpButton.style.opacity = '1'
+        for (item of leftsideicons) {
+            item.style.color = 'white'
+        }
     } else {
         nav.style.position = ''
         logo.style.height ="150px"
         nav.style.boxShadow = ''
         goUpButton.style.opacity = '0'
+    }
+    if (document.documentElement.scrollTop > sections[8].offsetTop - 1000) {
+        leftbaloons.style.display = 'none'
+    } else {
+        leftbaloons.style.display = ''
     }
 })
 
