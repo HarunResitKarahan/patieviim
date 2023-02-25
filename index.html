@@ -7,7 +7,6 @@
     <title>Pati Evim</title>
     <link rel="icon" href="./assets/images/logo1.png" type="image/icon type">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-grid.min.css">
     <style type="text/css">
         @font-face {
             font-family: "My Custom Font 400";
@@ -27,19 +26,19 @@
 <body>
     <main style="position: relative;">
         <div id="leftbaloons" style="position: fixed;bottom: 5px; left: 15px;z-index: 999;margin-bottom: 7px;">
-            <div id="wp" class="leftsideicons" style="cursor: pointer;">
+            <div id="wp" class="leftsideicons" style="cursor: pointer;" onclick="goToWp()">
                 <div style="border-radius: 100%;">
                     <div style="border-radius: 100%;">
                         <img src="./assets/icons/wp.svg" alt="" srcset="">
                     </div>
                 </div>
             </div>
-            <div id="insta" class="leftsideicons" style="cursor: pointer;margin-bottom: 7px;">
+            <div id="insta" class="leftsideicons" style="cursor: pointer;margin-bottom: 7px;" onclick="goToInstagram()">
                 <div style="border-radius: 100%;">
                     <img src="./assets/icons/insta.svg" alt="" srcset="">
                 </div>
             </div>
-            <div id="face" class="leftsideicons" style="cursor: pointer;">
+            <div id="face" class="leftsideicons" style="cursor: pointer;" onclick="goToFacebook()">
                 <div style="border-radius: 100%;">
                     <img src="./assets/icons/face.svg" alt="" srcset="">
                 </div>
@@ -139,6 +138,5 @@
         </section>
     </main>
     <script src="script.js"></script>
-    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
