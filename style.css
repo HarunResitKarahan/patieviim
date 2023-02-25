@@ -158,5 +158,9 @@ nav {
     .leftsideicons::before {
         font-size: 10px;
         height: 25px;
+        gap: 10px;
+    }
+    #goUpButton svg{
+        width: 35px;
     }
  }
