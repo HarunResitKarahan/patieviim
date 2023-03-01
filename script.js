@@ -67,7 +67,7 @@ function goToFacebook () {
 }
 
 function goToCall () {
-    let link = document.getElementById('phone');
+    let link = document.getElementById('phonebutton');
     link.href = `tel:05442253298`
     link.click()
 }

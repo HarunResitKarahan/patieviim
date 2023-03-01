@@ -129,9 +129,9 @@ nav {
     #logo img {
         height: 100px !important;
     }
-    #bigWrittenBox {
+    /* #bigWrittenBox {
         margin-top: 80px;
-    }
+    } */
     #bigWrittenBox p {
         font-size: 50px;
     }
