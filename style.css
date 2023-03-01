@@ -11,11 +11,11 @@ nav {
     /* position: fixed; */
     transition: position 1s ease;
     top: 0;
-    background-color: #f7fbfe;
+    background-color: white;
 }
 
 #firstSection {
-    background-image: url("./assets/images/dog.jpg");
+    background-image: url("./assets/images/dog5.jpg");
     background-color: #cccccc;
     height: 100vh;
     background-position: center;
@@ -108,6 +108,9 @@ nav {
     align-items: center;
     font-weight: bold;
 } 
+#phone::before {
+    content: "ŞİMDİ İLETİŞİME GEÇ";
+}
 #wp::before {
     content: "TIKLA BİLGİ AL";
 }
@@ -122,7 +125,7 @@ nav {
     to {opacity: 1;}
 }
 
-@media only screen and (max-width:600px)  { 
+@media only screen and (max-width:800px)  { 
     #logo img {
         height: 100px !important;
     }
@@ -147,10 +150,7 @@ nav {
         height: 75px !important;
     }
     #firstSection {
-        background-image: url("./assets/images/dog3.png");
-    }
-    #bigWrittenBox p:nth-child(2) {
-        color: white;
+        background-image: url("./assets/images/dog6.jpg");
     }
     .leftsideicons img {
         width: 45px;
