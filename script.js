@@ -66,6 +66,12 @@ function goToFacebook () {
     link.click()
 }
 
+function goToCall () {
+    let link = document.getElementById('phone');
+    link.href = `tel:05442253298`
+    link.click()
+}
+
 function goToWp () {
     let link = document.getElementById('wpbutton');
     // link.href = `https://www.facebook.com/pati.emlak/`
