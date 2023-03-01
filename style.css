@@ -150,6 +150,10 @@ nav {
         width: 20px !important;
         height: 20px !important;
     }
+    #footer #telno img {
+        width: 20px !important;
+        height: 20px !important;
+    }
     #footer #logo img {
         height: 75px !important;
     }
